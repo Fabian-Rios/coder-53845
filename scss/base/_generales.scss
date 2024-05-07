@@ -18,3 +18,41 @@ $color-secundario:rgb(126, 1, 244);
 $color-terciario: rgb(100, 214, 237);
 $color-cuarto: rgb(28, 28, 98);
 $color-quinto:rgb(109, 109, 142);
+
+//! Extends
+
+%flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color: $color-primario;
+    top: 0;
+    width: 100%;
+    @extend %flex-center;
+}
+
+//! minix
+
+@mixin flex($flex, $justify, $aling, $direction
+){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direction;
+}
+.header{
+    @include flex(flex, center, column)
+}
+
+//! Condicional
+
+@mixin modos($modo-black){
+    @if $modo-black == black{
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+    }
+}

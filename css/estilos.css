@@ -101,7 +101,7 @@ button {
 .config_pc img {
   padding: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .compra h2 {
@@ -135,7 +135,7 @@ figure img {
 
 .mercancia figure img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding: 5px;
 }
 
