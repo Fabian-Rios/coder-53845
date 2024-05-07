@@ -1,5 +1,5 @@
 header{
-    background-color:rgb(54, 54, 147) ;
+    background-color: $color-primario;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -7,16 +7,16 @@ header{
     align-items: center;
 }
 
-header h1{background-color:  rgb(54, 54, 147);
+header h1{background-color:  $color-primario;
     padding: 20px;
 }
 header nav ul{
     list-style: none;
-    background-color:  rgb(54, 54, 147);
+    background-color:  $color-primario;
 }
 header nav ul li a{
     text-decoration: none;
-    color: rgb(100, 214, 237);
+    color: $color-terciario;
 }
 header h1{
     font-size: 60px;

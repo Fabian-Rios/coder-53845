@@ -10,7 +10,7 @@ main{
 
 main h2{
     padding: 10px 0px;
-    background-color: #7e5fe0;
+    background-color: $color-secundario;
     color: white;
     padding-left: 20px;
     text-align: center;
@@ -19,7 +19,7 @@ main h2{
 aside{
     display: flex;
     flex-direction: column;
-    background-color: gb(54, 54, 147);
+    background-color: $color-primario;
 }
 
 aside details{
@@ -57,7 +57,7 @@ button{
     color: white;
     text-align: left;
     font-size: 40px;
-    background-color: #7e5fe0;
+    background-color: $color-secundario;
 }
 
 .card-img-top{
@@ -106,7 +106,7 @@ figure img{
     font-size: 15px;
 }
 .preguntas{
-    background-color: rgb(28, 28, 98);
+    background-color: $color-cuarto;
     color: white;
 }
 
@@ -117,7 +117,7 @@ figure img{
     font-size: 15px;
 }
 .texto{
-    background-color: rgb(28, 28, 98);
+    background-color: $color-cuarto;
     color: white;
 }
 .texto h2{
@@ -136,8 +136,8 @@ p{
     font-size: 25px;
     font-weight: 800;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:   rgb(54, 54, 147);
-    color: rgb(19, 225, 225);
+    background-color: $color-primario;
+    color: $color-terciario;
     padding: 2px;
     margin: 10px 0px;
 }
