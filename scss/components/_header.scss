@@ -1,29 +1,29 @@
-.cabecera{
+header{
     background-color:rgb(54, 54, 147) ;
     top: 0;
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    
-    h1{
+}
+
+header h1{background-color:  rgb(54, 54, 147);
     padding: 20px;
+}
+header nav ul{
+    list-style: none;
+    background-color:  rgb(54, 54, 147);
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(100, 214, 237);
+}
+header h1{
     font-size: 60px;
     font: weight 700; ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-block;
-    }
-
-        ul{
-            list-style: none;
-            background-color:  rgb(54, 54, 147);
-            li{
-                display: inline-block;
-                margin: 10px 30px 10px 30px;
-                a{
-                    text-decoration: none;
-                    color: rgb(100, 214, 237);
 }
-}
-        }
-    }
+header nav ul li{
+    display: inline-block;
+    margin: 10px 30px 10px 30px;}
